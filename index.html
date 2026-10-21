@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="it" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luca Barbieri | Lezioni private</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <span class="font-bold text-xl tracking-tight text-slate-900">Luca Barbieri</span>
+            <div class="hidden md:flex items-center space-x-6 text-sm font-medium text-slate-600">
+                <a href="#chi-sono" class="hover:text-blue-600 transition">Chi sono & CV</a>
+                <a href="#regole" class="hover:text-blue-600 transition">Regole di ingaggio</a>
+                <a href="#tariffe" class="hover:text-blue-600 transition">Tariffe & Pacchetti</a>
+                <a href="#progetti" class="hover:text-blue-600 transition">Progetti</a>
+                <a href="#prenota" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition shadow-sm">Prenota / Contatta</a>
+            </div>
+            <!-- Mobile CTA -->
+            <a href="#prenota" class="md:hidden bg-blue-600 text-white text-xs font-medium px-3 py-2 rounded-lg">Prenota ora</a>
+        </div>
+    </nav>
+
+    <!-- Hero / Chi Sono -->
+    <section id="chi-sono" class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+        <div class="max-w-3xl">
+            <div class="inline-flex flex-wrap items-center gap-2 px-3 py-1 rounded-full bg-blue-100 text-blue-700 text-xs font-semibold mb-6">
+                <i class="fa-solid fa-graduation-cap"></i> Dottore in Fisica (110/110 e Lode) • Tutor da oltre 4 anni
+            </div>
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight mb-6">
+                Ciao, sono Luca Barbieri.
+            </h1>
+            <p class="text-lg text-slate-600 mb-6 leading-relaxed">
+                Sono laureato in Fisica con <strong>110/110 e Lode</strong> (con Percorso d'Eccellenza) presso l'Università La Sapienza di Roma e attualmente frequento la laurea magistrale in <strong>Atmospheric Science and Technology for Meteorology and Climate (LMAST)</strong>. 
+            </p>
+            <p class="text-lg text-slate-600 mb-8 leading-relaxed">
+                Faccio ripetizioni da <strong>più di 4 anni</strong> e ho avuto esperienza diretta nelle scuole sia come docente di scuola secondaria, sia tenendo lezioni ed esperimenti di fisica nei licei di Roma tramite borsa di collaborazione <strong>INFN-Sapienza</strong>. Aiuto i ragazzi a sbloccarsi in Matematica, Fisica, Informatica e Scienze con metodo, chiarezza e supporto continuo.
+            </p>
+            
+            <div class="flex flex-wrap gap-3">
+                <a href="#prenota" class="bg-blue-600 text-white px-6 py-3 rounded-xl font-medium hover:bg-blue-700 transition shadow-sm flex items-center gap-2">
+                    <i class="fa-regular fa-calendar-check"></i> Prenota una lezione o un colloquio
+                </a>
+                <a href="cv_Luca_Barbieri.pdf" target="_blank" class="bg-slate-900 text-white px-6 py-3 rounded-xl font-medium hover:bg-slate-800 transition flex items-center gap-2">
+                    <i class="fa-solid fa-file-pdf"></i> Scarica il mio CV
+                </a>
+                <a href="https://github.com/daltonismo15" target="_blank" class="bg-white border border-slate-300 text-slate-700 px-5 py-3 rounded-xl font-medium hover:bg-slate-50 transition flex items-center gap-2">
+                    <i class="fa-brands fa-github text-lg"></i> GitHub
+                </a>
+            </div>
+        </div>
+
+        <!-- Sintesi CV in pillole -->
+        <div class="mt-16 grid sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-10 border-t border-slate-200">
+            <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+                <div class="text-xs font-bold uppercase tracking-wider text-blue-600 mb-1">Laurea Triennale</div>
+                <div class="font-bold text-slate-900">Fisica — 110/110 e Lode</div>
+                <div class="text-xs text-slate-500 mt-1">Sapienza Università di Roma + Percorso d'Eccellenza. Tesi sulla rilevazione sperimentale delle oscillazioni di sapore leptonico dei neutrini.</div>
+            </div>
+            <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+                <div class="text-xs font-bold uppercase tracking-wider text-indigo-600 mb-1">Laurea Magistrale (In corso)</div>
+                <div class="font-bold text-slate-900">Atmospheric Science (LMAST)</div>
+                <div class="text-xs text-slate-500 mt-1">Fisica dell'atmosfera, meteorologia, oceanografia e clima (Univaq - Sapienza).</div>
+            </div>
+            <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+                <div class="text-xs font-bold uppercase tracking-wider text-emerald-600 mb-1">Didattica & Scuola</div>
+                <div class="font-bold text-slate-900">4+ Anni di Ripetizioni</div>
+                <div class="text-xs text-slate-500 mt-1">Docente supplente alle superiori, Borsa INFN-Sapienza per lezioni ed esperimenti nei licei.</div>
+            </div>
+            <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+                <div class="text-xs font-bold uppercase tracking-wider text-amber-600 mb-1">Competenze & Lingue</div>
+                <div class="font-bold text-slate-900">Coding & Inglese C1/C2</div>
+                <div class="text-xs text-slate-500 mt-1">Python, Julia, MATLAB, C, R, LaTeX/Beamer e modelli di Machine Learning (PyTorch).</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sezione Regole di Ingaggio -->
+    <section id="regole" class="bg-blue-600 text-white py-16">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-start md:items-center gap-6">
+                <div class="w-16 h-16 rounded-2xl bg-white/10 flex items-center justify-center shrink-0 text-3xl">
+                    <i class="fa-solid fa-handshake-angle"></i>
+                </div>
+                <div>
+                    <h2 class="text-2xl sm:text-3xl font-bold mb-4">Regole di ingaggio</h2>
+                    <p class="text-blue-50 text-lg leading-relaxed mb-4">
+                        Le ripetizioni sono un gioco di squadra, sia io che i ragazzi ci dobbiamo impegnare: io assicuro massima serietà e presenza costante a chi che seguo, unita ad una <strong>reperibilità totale via WhatsApp</strong> per risolvere in fretta eventuali dubbi che dovessero sorgere lontano dalle lezioni.
+                    </p>
+                    <p class="text-white font-medium text-lg leading-relaxed mb-4"
+                        Io sono qui per aiutare e per fornire a chi seguo un punto di appoggio in un sistema scolastico che temo non ne stia più dando e in cui è facile sentirsi impantanati.
+                    </p>
+                    <p class="text-blue-50 text-lg leading-relaxed mb-4">
+                        Tengo molto ai ragazzi che seguo e al percorso che facciamo insieme, per questo cerco di essere flessibile con orari, spostamenti e cancellazioni.
+                    </p>
+                    <p class="text-white font-medium text-lg leading-relaxed mb-4">
+                        Il mio tempo però ha un valore, quindi l' appuntamento è modificabile <strong>fino a 24 ore prima della lezione</strong>, mentre non assicuro la possibilità di recuperare lezioni saltate senza preavviso.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sezione Materie & Tariffe -->
+    <section id="tariffe" class="bg-white border-b border-slate-200 py-20">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-12">
+                <h2 class="text-3xl font-bold text-slate-900 mb-3">Materie, Tariffe e Pacchetti</h2>
+                <p class="text-slate-600">Lezioni chiare, strutturate e senza sorprese per studenti delle scuole superiori e dell'università.</p>
+            </div>
+
+            <!-- Materie -->
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-16">
+                <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200/80">
+                    <div class="w-10 h-10 rounded-lg bg-blue-600 text-white flex items-center justify-center mb-3">
+                        <i class="fa-solid fa-square-root-variable"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-900 mb-1">Matematica</h3>
+                    <p class="text-sm text-slate-600">Dal programma completo del liceo fino ad Analisi 1, Analisi 2 e Geometria per l'università.</p>
+                </div>
+                <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200/80">
+                    <div class="w-10 h-10 rounded-lg bg-indigo-600 text-white flex items-center justify-center mb-3">
+                        <i class="fa-solid fa-atom"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-900 mb-1">Fisica</h3>
+                    <p class="text-sm text-slate-600">Meccanica, Termodinamica, Onde, Elettromagnetismo e Fisica moderna (coprendo ovviamente tutto il programma dei Licei di qualsiasi tipo).</p>
+                </div>
+                <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200/80">
+                    <div class="w-10 h-10 rounded-lg bg-emerald-600 text-white flex items-center justify-center mb-3">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-900 mb-1">Informatica</h3>
+                    <p class="text-sm text-slate-600">Algoritmi, Python, C, MATLAB, Julia, LaTeX e calcolo scientifico.</p>
+                </div>
+                <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200/80">
+                    <div class="w-10 h-10 rounded-lg bg-amber-600 text-white flex items-center justify-center mb-3">
+                        <i class="fa-solid fa-earth-europe"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-900 mb-1">Scienze</h3>
+                    <p class="text-sm text-slate-600">Scienze della Terra, fisica dell'atmosfera e del clima, meteorologia e chimica.</p>
+                </div>
+            </div>
+
+            <!-- Prezzi e Pacchetti -->
+            <div class="grid md:grid-cols-3 gap-6">
+                
+                <!-- Card 1: Lezione Singola -->
+                <div class="rounded-2xl border border-slate-200 p-6 flex flex-col justify-between bg-slate-50">
+                    <div>
+                        <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Flessibile</span>
+                        <h3 class="text-xl font-bold text-slate-900 mt-1 mb-4">Lezione Singola</h3>
+                        <div class="flex items-baseline gap-1 mb-4">
+                            <span class="text-4xl font-extrabold text-slate-900">30€</span>
+                            <span class="text-slate-500 text-sm">/ ora</span>
+                        </div>
+                        <ul class="space-y-3 text-sm text-slate-600 mb-6">
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-emerald-600 mt-1"></i>
+                                <span><strong>30€ / ora</strong> per lezioni <strong>Online</strong> oppure a casa mia (<strong>zona San Giovanni</strong>, Roma).</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-car text-blue-600 mt-1"></i>
+                                <span><strong>+5€</strong> per lezioni a domicilio.</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-brands fa-whatsapp text-emerald-600 mt-1"></i>
+                                <span>Supporto WhatsApp sempre incluso.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#prenota" class="block w-full text-center bg-slate-900 text-white py-2.5 rounded-xl font-medium hover:bg-slate-800 transition text-sm">Prenota un'ora</a>
+                </div>
+
+                <!-- Card 2: Pacchetto Tutto l'Anno -->
+                <div class="rounded-2xl border-2 border-blue-600 p-6 flex flex-col justify-between bg-white shadow-md relative">
+                    <div class="absolute -top-3 right-6 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full">Più scelto</div>
+                    <div>
+                        <span class="text-xs font-bold uppercase tracking-wider text-blue-600">Percorso Continuativo</span>
+                        <h3 class="text-xl font-bold text-slate-900 mt-1 mb-4">Pacchetto "Tutto l'Anno"</h3>
+                        <div class="flex items-baseline gap-1 mb-4">
+                            <span class="text-4xl font-extrabold text-slate-900">50€</span>
+                            <span class="text-slate-500 text-sm">/ settimana</span>
+                        </div>
+                        <ul class="space-y-3 text-sm text-slate-600 mb-6">
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-emerald-600 mt-1"></i>
+                                <span><strong>2 lezioni a settimana</strong> da un'ora per seguire il programma passo passo senza accumulare lacune.</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-house text-blue-600 mt-1"></i>
+                                <span><strong>50€ a settimana</strong> online o da me (San Giovanni).</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-car text-blue-600 mt-1"></i>
+                                <span><strong>60€ a settimana</strong> se vengo io a casa vostra.</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-brands fa-whatsapp text-emerald-600 mt-1"></i>
+                                <span>Supporto WhatsApp sempre incluso.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="mailto:barbieriluca150@gmail.com?subject=Info%20Pacchetto%20Tutto%20l'Anno" class="block w-full text-center bg-blue-600 text-white py-2.5 rounded-xl font-medium hover:bg-blue-700 transition text-sm">Attiva il pacchetto</a>
+                </div>
+
+                <!-- Card 3: Pacchetti Estivi & Recupero Debiti -->
+                <div class="rounded-2xl border border-slate-200 p-6 flex flex-col justify-between bg-slate-50">
+                    <div>
+                        <span class="text-xs font-bold uppercase tracking-wider text-amber-600">Su Misura</span>
+                        <h3 class="text-xl font-bold text-slate-900 mt-1 mb-4">Recupero Debiti & Estivi</h3>
+                        <p class="text-sm text-slate-600 mb-6 leading-relaxed">
+                            Prepariamo insieme un piano mirato per superare gli esami di riparazione di settembre o per rimettersi in pari durante l'estate, con pacchetti concordati insieme in base alle ore necessarie.
+                        </p>
+                    </div>
+                    <a href="mailto:barbieriluca150@gmail.com?subject=Richiesta%20colloquio%20conoscitivo%20/%20Pacchetto%20Recupero" class="block w-full text-center bg-slate-900 text-white py-2.5 rounded-xl font-medium hover:bg-slate-800 transition text-sm">Scrivimi per concordare</a>
+                </div>
+
+            </div>
+
+            <!-- Box Grande Sotto: Chiacchierata Conoscitiva Gratuita -->
+            <div class="mt-8 w-full p-6 sm:p-8 rounded-2xl bg-blue-50 border border-blue-200 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                <div class="flex items-start gap-4">
+                    <div class="w-12 h-12 rounded-xl bg-blue-600 text-white flex items-center justify-center shrink-0 text-xl mt-1">
+                        <i class="fa-solid fa-comments"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-blue-950 mb-2">Chiacchierata conoscitiva gratuita</h3>
+                        <p class="text-slate-700 text-base leading-relaxed max-w-2xl">
+                            Sono disponibilissimo a fare una chiacchierata conoscitiva al telefono o via Google Meet con genitori e ragazzi per capire la situazione prima di iniziare. Scrivimi a <strong>barbieriluca150@gmail.com</strong> (rispondo sempre entro 24 ore).
+                        </p>
+                    </div>
+                </div>
+                <a href="mailto:barbieriluca150@gmail.com?subject=Richiesta%20chiacchierata%20conoscitiva" class="block w-full md:w-auto text-center shrink-0 bg-blue-600 text-white font-medium px-6 py-3.5 rounded-xl hover:bg-blue-700 transition shadow-sm">
+                    Fissa una chiacchierata
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Sezione Progetti / GitHub -->
+    <section id="progetti" class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-12 gap-4">
+            <div>
+                <h2 class="text-3xl font-bold text-slate-900 mb-2">Pet Projects & Ricerca</h2>
+                <p class="text-slate-600">Alcuni dei progetti su cui lavoro tra fisica dell'atmosfera, oceanografia e codice.</p>
+            </div>
+            <a href="https://github.com/daltonismo15" target="_blank" class="text-sm font-semibold text-blue-600 hover:text-blue-700 flex items-center gap-1.5">
+                Vedi tutto su GitHub (@daltonismo15) <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+            </a>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6">
+            <!-- Progetto 1 -->
+            <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-xs font-semibold px-2.5 py-1 bg-purple-100 text-purple-700 rounded-md">Computer Vision & Meteo</span>
+                        <a href="https://github.com/daltonismo15" target="_blank" class="text-slate-400 hover:text-slate-700"><i class="fa-brands fa-github text-xl"></i></a>
+                    </div>
+                    <h3 class="font-bold text-xl text-slate-900 mb-2">WMO Cloud Classifier</h3>
+                    <p class="text-slate-600 text-sm mb-4">
+                        Web application basata su Deep Learning (fine-tuning di architetture ResNet in PyTorch/fastai ed esportazione ONNX) per classificare le foto delle nuvole nei 10 generi ufficiali del WMO.
+                    </p>
+                </div>
+                <div class="flex gap-3 text-xs text-slate-500 font-mono">
+                    <span>#Python</span> <span>#PyTorch</span> <span>#fastai</span> <span>#ONNX</span>
+                </div>
+            </div>
+
+                        <!-- Progetto 2 -->
+            <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-xs font-semibold px-2.5 py-1 bg-emerald-100 text-emerald-700 rounded-md">Computer Vision & OCR</span>
+                        <a href="https://github.com/daltonismo15" target="_blank" class="text-slate-400 hover:text-slate-700"><i class="fa-brands fa-github text-xl"></i></a>
+                    </div>
+                    <h3 class="font-bold text-xl text-slate-900 mb-2">Riconoscimento Automatico Pettorali di Gara</h3>
+                    <p class="text-slate-600 text-sm mb-4">
+                        Applicazione desktop con interfaccia grafica (CustomTkinter) per catalogare e smistare automaticamente le foto delle gare podistiche. Sfrutta una pipeline basata su YOLO per il rilevamento e il cropping del pettorale, combinata con modelli OCR (PaddleOCR / TrOCR) per la lettura dei numeri.
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-3 text-xs text-slate-500 font-mono">
+                    <span>#Python</span> <span>#YOLO</span> <span>#OCR</span> <span>#CustomTkinter</span>
+                </div>
+            </div>
+    </section>
+
+    <!-- Sezione Prenotazione & Contatto Diretto -->
+    <section id="prenota" class="bg-slate-900 text-white py-20">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <!-- Box Contatto Conoscitivo Rapido -->
+            <div class="bg-slate-800/90 border border-slate-700 rounded-2xl p-6 sm:p-8 mb-12 flex flex-col md:flex-row items-center justify-between gap-6">
+                <div>
+                    <span class="inline-block text-xs font-bold uppercase tracking-wider text-emerald-400 mb-2">
+                        <i class="fa-solid fa-bolt"></i> Risposta garantita entro 24 ore
+                    </span>
+                    <h3 class="text-2xl font-bold mb-2">Vuoi prima fare una chiacchierata conoscitiva?</h3>
+                    <p class="text-slate-300 text-sm leading-relaxed max-w-xl">
+                        Se sei un genitore o uno studente e vuoi parlarmi al telefono o fare un rapido Google Meet per conoscerci, valutare la situazione o concordare un pacchetto, scrivimi direttamente via email.
+                    </p>
+                </div>
+                <a href="mailto:barbieriluca150@gmail.com" class="shrink-0 bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold px-6 py-3.5 rounded-xl transition flex items-center gap-2 shadow-lg">
+                    <i class="fa-solid fa-envelope"></i> barbieriluca150@gmail.com
+                </a>
+            </div>
+
+            <div class="text-center mb-8">
+                <h2 class="text-3xl font-bold mb-3">Oppure prenota direttamente uno slot</h2>
+                <p class="text-slate-300 max-w-xl mx-auto text-sm">
+                    Scegli giorno e ora dal calendario qui sotto per fissare subito una lezione, specificando nella nota se online, in presenza da me o a domicilio, oltre alla materia e qualsiasi informazione utile. Ti contatterò subito per organizzare la lezione.
+                </p>
+            </div>
+
+                        <!-- Contenitore del Calendario (Cal.com) -->
+            <div class="bg-white text-slate-900 rounded-2xl p-2 sm:p-4 shadow-xl min-h-[550px]">
+                
+                <!-- Cal inline embed code begins -->
+                <div style="width:100%;height:100%;overflow:scroll" id="my-cal-inline"></div>
+                <script type="text/javascript">
+                  (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+                  Cal("init", "lezione-di-60-minuti", {origin:"https://cal.com"});
+
+                  Cal.ns["lezione-di-60-minuti"]("inline", {
+                    elementOrSelector:"#my-cal-inline",
+                    config: {"layout":"month_view"},
+                    calLink: "luca-barbieri-2z5nzl/lezione-di-60-minuti",
+                  });
+
+                  Cal.ns["lezione-di-60-minuti"]("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
+                </script>
+                <!-- Cal inline embed code ends -->
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-400 py-8 text-center text-sm border-t border-slate-800">
+        <div class="max-w-5xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <p>© 2026 Luca Barbieri — Roma (Zona San Giovanni). Tutti i diritti riservati.</p>
+            <div class="flex flex-wrap justify-center gap-6">
+                <a href="mailto:barbieriluca150@gmail.com" class="hover:text-white transition">barbieriluca150@gmail.com</a>
+                <a href="cv_Luca_Barbieri.pdf" target="_blank" class="hover:text-white transition">Curriculum Vitae</a>
+                <a href="https://github.com/daltonismo15" target="_blank" class="hover:text-white transition">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
